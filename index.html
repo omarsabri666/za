@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="/fontawesome-free-6.4.0-web/" />
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </head>
+  <style>
+    .section {
+      padding: 60px 0;
+    }
+    li{
+      cursor: pointer;
+    }
+    .cta{
+       left: 50%;
+    bottom: -362%;
+        position: absolute;
+    transform: translateX(-50%);
+    }
+    .bg-omar{
+      background-color: #1a1a1a ;
+    }
+    .fill{
+      fill: #dc3545;
+      width: 2rem;
+    }
+ 
+    
+
+    .bg-img {
+      background: url("https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGd5bXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60");
+    background-size: cover;
+        background-position: center;
+    min-height: 90vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+    }
+    h1 {
+    font-size: 4rem;
+}
+.color-overlay {
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    /* height: 100%; */
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .masthead {
+        min-height: 40vh;
+        background-position: center;
+    }
+    h1 {
+        font-size: calc(1.525rem + 3.3vw);
+    }
+}
+    nav {
+     /* background: rgb(58,60,180);
+background: linear-gradient(90deg, rgba(58,60,180,1) 0%, rgba(253,29,45,1) 50%, rgba(252,176,69,1) 100%); */
+      /* background-color: #121212; */
+      background-color: #1a1a1a
+    }
+  </style>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light pt-1 pb-1">
+      <div class="container-xxl">
+        <a href="#" class="navbar-brand">
+          <span class="text-danger fw-bold">
+            <?xml version="1.0" ?><svg
+              height="3rem"
+              version="1.1"
+              viewBox="0 0 512 512"
+              width="3rem"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              class="red"
+            >
+              <title />
+              <desc />
+              <defs />
+              <g
+                fill="none"
+                fill-rule="evenodd"
+                id="SVG"
+                stroke="none"
+                stroke-width="1"
+              >
+                <g id="Weight">
+                  <g id="10" transform="translate(0.000000, 79.000000)">
+                    <polygon
+                      fill="#FEFEFE"
+                      id="Fill-1"
+                      points="163.570731 197.179666 348.329417 197.179666 348.329417 153.555311 163.570731 153.555311"
+                    />
+                    <g id="Group-22" transform="translate(0.000000, 0.991931)">
+                      <path
+                        d="M173.889719,185.890878 L338.024179,185.890878 L338.024179,162.860238 L173.889719,162.860238 L173.889719,185.890878 Z M348.336291,206.484594 L163.577606,206.484594 C157.88532,206.484594 153.265493,201.878466 153.265493,196.187736 L153.265493,152.56338 C153.265493,146.879515 157.88532,142.266522 163.577606,142.266522 L348.336291,142.266522 C354.028578,142.266522 358.648404,146.879515 358.648404,152.56338 L358.648404,196.187736 C358.648404,201.878466 354.028578,206.484594 348.336291,206.484594 L348.336291,206.484594 Z"
+                        fill="#2E2E30"
+                        id="Fill-2"
+                      />
+                      <polygon
+                        fill="#dc3545"
+                        id="Fill-4"
+                        points="350.206221 336.190683 400.666826 336.190683 400.666826 12.5604334 350.206221 12.5604334"
+                      />
+                      <polygon
+                        fill="#dc3545"
+                        id="Fill-6"
+                        points="400.666826 302.657248 451.127431 302.657248 451.127431 46.0938678 400.666826 46.0938678"
+                      />
+                      <polygon
+                        fill="#dc3545"
+                        id="Fill-8"
+                        points="451.134305 259.094674 501.59491 259.094674 501.59491 89.656442 451.134305 89.656442"
+                      />
+                      <polygon
+                        fill="#dc3545"
+                        id="Fill-10"
+                        points="111.240197 336.190683 161.700802 336.190683 161.700802 12.5604334 111.240197 12.5604334"
+                      />
+                      <polygon
+                        fill="#dc3545"
+                        id="Fill-14"
+                        points="60.7795921 302.657248 111.240197 302.657248 111.240197 46.0938678 60.7795921 46.0938678"
+                      />
+                      <polygon
+                        fill="#dc3545"
+                        id="Fill-16"
+                        points="10.3121127 259.094674 60.7727174 259.094674 60.7727174 89.656442 10.3121127 89.656442"
+                      />
+                      <polygon
+                        fill="#010202"
+                        id="Fill-12"
+                        opacity="0.3"
+                        points="111.240197 336.190683 161.700802 336.190683 161.700802 302.657248 111.240197 302.657248"
+                      />
+                      <polygon
+                        fill="#010202"
+                        id="Fill-13"
+                        opacity="0.3"
+                        points="350.206221 336.190683 400.666826 336.190683 400.666826 302.657248 350.206221 302.657248"
+                      />
+                      <polygon
+                        fill="#010202"
+                        id="Fill-18"
+                        opacity="0.3"
+                        points="60.7795921 302.664113 111.240197 302.664113 111.240197 269.130678 60.7795921 269.130678"
+                      />
+                      <polygon
+                        fill="#010202"
+                        id="Fill-19"
+                        opacity="0.3"
+                        points="402.54363 302.664113 453.004235 302.664113 453.004235 269.130678 402.54363 269.130678"
+                      />
+                      <polygon
+                        fill="#010202"
+                        id="Fill-20"
+                        opacity="0.3"
+                        points="10.3121127 259.101538 60.7727174 259.101538 60.7727174 225.568104 10.3121127 225.568104"
+                      />
+                      <polygon
+                        fill="#010202"
+                        id="Fill-21"
+                        opacity="0.3"
+                        points="453.01111 259.101538 503.471715 259.101538 503.471715 225.568104 453.01111 225.568104"
+                      />
+                      <path
+                        d="M360.518334,325.893824 L390.354713,325.893824 L390.354713,22.8572914 L360.518334,22.8572914 L360.518334,325.893824 Z M400.666826,346.487541 L350.206221,346.487541 C344.513935,346.487541 339.894109,341.874548 339.894109,336.190683 L339.894109,12.5604334 C339.894109,6.87656771 344.513935,2.2635753 350.206221,2.2635753 L400.666826,2.2635753 C406.359112,2.2635753 410.978939,6.87656771 410.978939,12.5604334 L410.978939,336.190683 C410.978939,341.874548 406.359112,346.487541 400.666826,346.487541 L400.666826,346.487541 Z"
+                        fill="#2E2E30"
+                        id="Fill-5"
+                      />
+                      <path
+                        d="M410.978939,292.36039 L440.822193,292.36039 L440.822193,56.3907259 L410.978939,56.3907259 L410.978939,292.36039 Z M451.134305,312.954106 L400.666826,312.954106 C394.97454,312.954106 390.354713,308.341114 390.354713,302.657248 L390.354713,46.0938678 C390.354713,40.4100022 394.97454,35.7970098 400.666826,35.7970098 L451.134305,35.7970098 C456.826592,35.7970098 461.446418,40.4100022 461.446418,46.0938678 L461.446418,302.657248 C461.446418,308.341114 456.826592,312.954106 451.134305,312.954106 L451.134305,312.954106 Z"
+                        fill="#2E2E30"
+                        id="Fill-7"
+                      />
+                      <path
+                        d="M461.446418,248.80468 L491.282797,248.80468 L491.282797,99.9533001 L461.446418,99.9533001 L461.446418,248.80468 Z M501.59491,269.398397 L451.134305,269.398397 C445.442019,269.398397 440.822193,264.785404 440.822193,259.101538 L440.822193,89.656442 C440.822193,83.9725764 445.442019,79.359584 451.134305,79.359584 L501.59491,79.359584 C507.287196,79.359584 511.907023,83.9725764 511.907023,89.656442 L511.907023,259.101538 C511.907023,264.785404 507.287196,269.398397 501.59491,269.398397 L501.59491,269.398397 Z"
+                        fill="#2E2E30"
+                        id="Fill-9"
+                      />
+                      <path
+                        d="M121.552309,325.893824 L151.395564,325.893824 L151.395564,22.8572914 L121.552309,22.8572914 L121.552309,325.893824 Z M161.700802,346.487541 L111.240197,346.487541 C105.547911,346.487541 100.928084,341.874548 100.928084,336.190683 L100.928084,12.5604334 C100.928084,6.87656771 105.547911,2.2635753 111.240197,2.2635753 L161.700802,2.2635753 C167.399962,2.2635753 172.012914,6.87656771 172.012914,12.5604334 L172.012914,336.190683 C172.012914,341.874548 167.399962,346.487541 161.700802,346.487541 L161.700802,346.487541 Z"
+                        fill="#2E2E30"
+                        id="Fill-11"
+                      />
+                      <path
+                        d="M71.08483,292.36039 L100.928084,292.36039 L100.928084,56.3907259 L71.08483,56.3907259 L71.08483,292.36039 Z M111.240197,312.954106 L60.7727174,312.954106 C55.0804312,312.954106 50.4606047,308.341114 50.4606047,302.657248 L50.4606047,46.0938678 C50.4606047,40.4100022 55.0804312,35.7970098 60.7727174,35.7970098 L111.240197,35.7970098 C116.932483,35.7970098 121.552309,40.4100022 121.552309,46.0938678 L121.552309,302.657248 C121.552309,308.341114 116.932483,312.954106 111.240197,312.954106 L111.240197,312.954106 Z"
+                        fill="#2E2E30"
+                        id="Fill-15"
+                      />
+                      <path
+                        d="M20.6242254,248.80468 L50.4606047,248.80468 L50.4606047,99.9533001 L20.6242254,99.9533001 L20.6242254,248.80468 Z M60.7727174,269.398397 L10.3121127,269.398397 C4.61982648,269.398397 0,264.785404 0,259.101538 L0,89.656442 C0,83.9725764 4.61982648,79.359584 10.3121127,79.359584 L60.7727174,79.359584 C66.4650036,79.359584 71.08483,83.9725764 71.08483,89.656442 L71.08483,259.101538 C71.08483,264.785404 66.4650036,269.398397 60.7727174,269.398397 L60.7727174,269.398397 Z"
+                        fill="#2E2E30"
+                        id="Fill-17"
+                      />
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            Vox Gym
+          </span>
+        </a>
+        <button
+          class="navbar-toggler
+          "
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main-nav"
+          aria-controls="main-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end align-center"
+          id="main-nav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="text-light nav-link" href="#programs">Programs</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="text-light nav-link" href="#reviews">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-light nav-link" href="#contact">Get in Touch</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-light nav-link" href="#Pricing">Pricing</a>
+            </li>
+            <li class="nav-item ms-2  d-md-inline">
+              <a class="btn btn-danger" href="#Pricing">Subscribe Now</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <!-- <div
+
+        class="container-xxl color-overlay d-flex flex-column justify-content-center align-items-center bg-image"
+      >
+        <div class="row g-4 justify-content-center align-items-center">
+          <div class="col bg-img text-center">
+            <h1>
+              <div class="display-2 text-danger fw-bold text-center">
+                Subscripe <span class="text-danger">Now</span>
+              </div>
+            </h1>
+          </div>
+        </div>
+      </div> -->
+       <div 
+      class="masthead bg-img"
+     
+    >
+      <div class="color-overlay d-flex flex-column justify-content-center align-items-center text-center mx-auto">
+         <h1>
+              <div class="display-2 text-warning fw-bold text-center">
+                Subscribe <span class="text-danger">Now</span>
+              </div>
+            </h1>
+            <button class="  cta btn    btn-danger">Subscribe Now</button>
+    </div>
+    </section>
+    <section class="bg-omar py-5" id="Pricing">
+      <div class="container-lg">
+        <div class="text-center">
+          <h2 class="text-light">Pricing Plans</h2>
+          <p class="lead text-light">Choose a pricing plan to suit you</p>
+        </div>
+        <div class="row g-0 justify-content-center align-items-centermy-5 ">
+          <div class="col8 col-lg-5 col-xl-5">
+            <div class="card-border-0">
+              <div class="card-body text-center py-4">
+                <h4 class="card-title text-light">Basic Plan</h4>
+                <p class="text-light lead card-subtilte">
+                
+                </p>
+                <p class="display-5 my-4 text-danger fw-bold">$39.99</p>
+                <p class="card-text mx-5 text-light  d-lg-block">
+                <span>weights, and cardio machines <?xml version="1.0" ?><svg class="fill" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"/></svg><span>
+                     
+
+                </p>
+          
+                   <p class="card-text mx-5 text-light  d-lg-block">
+                <span>Online scheduling for gym classes  <?xml version="1.0" ?><svg class="fill" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"/></svg><span>
+                     
+
+                </p>
+                   <p class="card-text mx-5 text-light  d-lg-block">
+                <span>Basic nutritional guidance <?xml version="1.0" ?><svg class="fill" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"/></svg><span>
+                     
+
+                </p>
+                   <p class="card-text mx-5 text-light  d-lg-block">
+                <span>Personalized fitness goal <?xml version="1.0" ?><svg class="fill" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"/></svg><span>
+                     
+
+                </p>
+                   <p class="card-text mx-5 text-light  d-lg-block">
+                <span>Monthly check-ins with a personal trainer <?xml version="1.0" ?><svg class="fill" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"/></svg><span>
+                     
+
+                </p>
+                   <p class="card-text mx-5 text-light  d-lg-block">
+                <span>Locker room and shower facilities <?xml version="1.0" ?><svg class="fill" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"/></svg><span>
+                     
+
+                </p>
+                <a href="#" class="btn btn-outline-danger btn-lg mt-3">
+Subscribe Now
+                </a>
+              </div>
+            </div>
+          </div>
+               <div class="col8 col-lg-7 col-xl-7">
+            <div class="card card-border-2 border-danger bg-transparent">
+              <div class="card-header text-center text-danger">
+                Most Popular
+              </div>
+              <div class="card-body text-center py-4">
+                <h4 class="card-title text-light">Premium Plan</h4>
+                <p class="text-light lead card-subtilte">
+                 
+                </p>
+                <p class="display-4 my-4 text-danger fw-bold">$99.99</p>
+                <p class="card-text mx-5 text-light  d-lg-block">
+                  <span>All features of the basic plan <?xml version="1.0" ?><svg class="fill" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"/></svg><span></span>
+                </p>
+                 <p class="card-text mx-5 text-light  d-lg-block">
+                  <span>sauna, steam room,  swimming pool  <?xml version="1.0" ?><svg class="fill" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"/></svg><span></span>
+                </p>
+                 <p class="card-text mx-5 text-light  d-lg-block">
+                  <span>Personalized workout plan  <?xml version="1.0" ?><svg class="fill" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"/></svg><span></span>
+                </p>
+                 <p class="card-text mx-5 text-light  d-lg-block">
+                  <span>Priority reservation for fitness classes  <?xml version="1.0" ?><svg class="fill" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"/></svg><span></span>
+                </p>
+                 <p class="card-text mx-5 text-light  d-lg-block">
+                  <span>Additional one-on-one personal training sessions   <?xml version="1.0" ?><svg class="fill" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"/></svg><span></span>
+                </p>
+                 <p class="card-text mx-5 text-light  d-lg-block">
+                  <span>Advanced nutritional guidance  <?xml version="1.0" ?><svg class="fill" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"/></svg><span></span>
+                </p>
+                 <p class="card-text mx-5 text-light  d-lg-block">
+                  <span>Discounts on supplements  <?xml version="1.0" ?><svg class="fill" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"/></svg><span></span>
+                </p>
+                      <p class="card-text mx-5 text-light  d-lg-block">
+                  <span>Access to exclusive classes or workshops  <?xml version="1.0" ?><svg class="fill" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"/></svg><span></span>
+                </p>
+                      <p class="card-text mx-5 text-light  d-lg-block">
+                  <span>24/7 gym access
+  <?xml version="1.0" ?><svg class="fill" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"/></svg><span></span>
+                </p>
+                <a href="#" class="btn btn-outline-danger btn-lg mt-3">
+                  Book Now
+                </a>
+              </div>
+            </div>
+          </div>
+       
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-omar py-5" id="reviews">
+<div class="container-lg">
+ <div class="text-center">
+          <h2 class="text-light"><svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-stars text-danger" viewBox="0 0 16 16">
+            <path d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828l.645-1.937zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.734 1.734 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.734 1.734 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.734 1.734 0 0 0 3.407 2.31l.387-1.162zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L10.863.1z"/>
+          </svg> Gym reviews</h2>
+          <p class="text-light lead">
+            what my clients have said about Our Gym
+          </p>
+        </div>
+        <div class="row justify-content-center my-5">
+          <div class=" col-lg-8">
+            <div class=" list-group">
+              <div class="bg-omar list-group-item py-3">
+                <div class="pb-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-danger" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-danger" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-danger" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-danger" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-danger" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <h5 class="mb-1 text-light"> a wonderful Gym with great staff</h5>
+                  <p class="mb-1 text-light">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis a laudantium iusto adipisci distinctio. Laudantium
+                  voluptatum soluta facere fuga pariatur esse deleniti
+                  distinctio minus tenetur. Commodi quae beatae esse quaerat.
+                </p>
+                <small class="text-light">review by Mike</small>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class=" col-lg-8">
+            <div class=" list-group">
+              <div class="bg-omar list-group-item py-3">
+                <div class="pb-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-danger" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-danger" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-danger" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-danger" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-danger" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <h5 class="mb-1 text-light"> a wonderful Gym with great staff</h5>
+                  <p class="mb-1 text-light">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis a laudantium iusto adipisci distinctio. Laudantium
+                  voluptatum soluta facere fuga pariatur esse deleniti
+                  distinctio minus tenetur. Commodi quae beatae esse quaerat.
+                </p>
+                <small class="text-light">review by Mike</small>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class=" col-lg-8">
+            <div class=" list-group">
+              <div class="bg-omar list-group-item py-3">
+                <div class="pb-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-danger" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-danger" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-danger" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-danger" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-danger" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <h5 class="mb-1 text-light"> a wonderful Gym with great staff</h5>
+                  <p class="mb-1 text-light">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis a laudantium iusto adipisci distinctio. Laudantium
+                  voluptatum soluta facere fuga pariatur esse deleniti
+                  distinctio minus tenetur. Commodi quae beatae esse quaerat.
+                </p>
+                <small class="text-light">review by Mike</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+
+
+    </section>
+    <section class="bg-omar py-5" id="contact">
+      <div class="container-lg">
+        <div class="text-center">
+          <h2 class="text-light">get in  touch</h2>
+           <p class="lead text-light">Questions to ask? fill out this form to contact us directly</p>
+        </div>
+        <div class="justify-content-center my-5 row">
+          <div class="col-lg-6">
+             <label for="email" class="form-label">Email Address</label>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" fill="currentColor" class="bi text-danger bi-envelope-fill" viewBox="0 0 16 16">
+                                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                              </svg>
+                            </span> 
+                                                       <input class="form-control" id="email" type="email" placeholder="e.g.omar@exmaple.com">
+                                                       <span 
+                                                       
+                                                       class="input-group-text">
+                                                       <span title="Please enter an email address" data-bs-toggle="tooltip" data-bs-placement="bottom">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" fill="currentColor" class="bi text-center text-danger  bi-question-circle" viewBox="0 0 16 16">
+                                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                                          <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+                                                        </svg>
+                                                       </span>
+                                                        
+                                                    </span>
+                        </div>
+                        
+                   <label class="form-label my-1" for="name">Name</label>
+                   <div class="input-group mb-4">
+                    <span class="input-group-text text-danger">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                      </svg>
+                    </span>
+                    <input id="name" class="form-control" type="text" placeholder="e.g.omar">
+                    <span class=" input-group-text">
+                        <span title="please enter your name" data-bs-placement="bottom" data-bs-toggle="tooltip">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" fill="currentColor" class="bi text-center text-danger  bi-question-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+                          </svg>
+                        </span>
+                    </span>
+                    
+                   </div>
+                   
+                   <label class="form-lable" for="subject">what is your question about?</label>
+                   <div class="input-group mb-4">
+                    <span class="input-group-text">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" fill="currentColor" class="bi text-danger bi-chat-right-dots-fill" viewBox="0 0 16 16">
+                        <path d="M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.586a1 1 0 0 1 .707.293l2.853 2.853a.5.5 0 0 0 .854-.353V2zM5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                      </svg>
+                    </span>
+                    <select class="form-select" id="subject">
+                        <option selected value="pricing">Pricing query</option>
+                        <option value="classes">Classes query</option>
+                        <option value="other">Other query...</option>
+                       </select>
+                   </div>
+                 
+                   <div class="form-floating mb-4 mt-5">
+                    <textarea style="height: 140px;" class="form-control" name="" id="query" ></textarea>
+                    <label for="query">Your query</label>
+                   </div>
+                   
+                   <div class="text-center mb-4">
+                    <button class="btn btn-danger" type="submit">Submit</button>
+                   </div>
+                    </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-omar py-5">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="text-light">Stay in the loop</h2>
+          <p class="lead text-light">Get our latest updates</p>
+        </div>
+        <div class="justify-content-center row">
+          <div class="col-md-8 text-center">
+            <p class="text-light my-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error consequuntur porro sapiente. Architecto tempore non fuga ratione optio sint nihil delectus suscipit minima pariatur? Quidem, perspiciatis ullam quis corporis vitae, laboriosam veritatis nobis et magnam nihil labore expedita. Voluptates facere quia alias assumenda libero vero unde, error itaque deleniti suscipit.
+            </p>
+              <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#reg-modal">
+                Register for Updates
+              </button>
+          </div>
+        </div>
+      </div>
+    </section>
+       <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal-title">Get the Latest Updates</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, exercitationem laboriosam nihil minus voluptatibus harum aliquam consequatur pariatur inventore dignissimos illum excepturi ratione ipsum sit iusto alias eligendi fugit laborum?</p>
+              <label for="modal-email" class="form-label">Your email address:</label>
+              <input type="text" class="form-control" id="modal-email" placeholder="e.g. omar@example.com">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="bg-omar py-5">
+        <div class="container-lg">
+          <div class="row text-center text-md-start">
+            <div class="col-md-4 col-lg-4">
+              <div class="info">
+                <a class="navbar-brand" href="#">
+                  <span class="text-danger fs-1 fw-bold">
+            <?xml version="1.0" ?><svg
+              height="3rem"
+              version="1.1"
+              viewBox="0 0 512 512"
+              width="3rem"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              class="red"
+            >
+              <title />
+              <desc />
+              <defs />
+              <g
+                fill="none"
+                fill-rule="evenodd"
+                id="SVG"
+                stroke="none"
+                stroke-width="1"
+              >
+                <g id="Weight">
+                  <g id="10" transform="translate(0.000000, 79.000000)">
+                    <polygon
+                      fill="#FEFEFE"
+                      id="Fill-1"
+                      points="163.570731 197.179666 348.329417 197.179666 348.329417 153.555311 163.570731 153.555311"
+                    />
+                    <g id="Group-22" transform="translate(0.000000, 0.991931)">
+                      <path
+                        d="M173.889719,185.890878 L338.024179,185.890878 L338.024179,162.860238 L173.889719,162.860238 L173.889719,185.890878 Z M348.336291,206.484594 L163.577606,206.484594 C157.88532,206.484594 153.265493,201.878466 153.265493,196.187736 L153.265493,152.56338 C153.265493,146.879515 157.88532,142.266522 163.577606,142.266522 L348.336291,142.266522 C354.028578,142.266522 358.648404,146.879515 358.648404,152.56338 L358.648404,196.187736 C358.648404,201.878466 354.028578,206.484594 348.336291,206.484594 L348.336291,206.484594 Z"
+                        fill="#2E2E30"
+                        id="Fill-2"
+                      />
+                      <polygon
+                        fill="#dc3545"
+                        id="Fill-4"
+                        points="350.206221 336.190683 400.666826 336.190683 400.666826 12.5604334 350.206221 12.5604334"
+                      />
+                      <polygon
+                        fill="#dc3545"
+                        id="Fill-6"
+                        points="400.666826 302.657248 451.127431 302.657248 451.127431 46.0938678 400.666826 46.0938678"
+                      />
+                      <polygon
+                        fill="#dc3545"
+                        id="Fill-8"
+                        points="451.134305 259.094674 501.59491 259.094674 501.59491 89.656442 451.134305 89.656442"
+                      />
+                      <polygon
+                        fill="#dc3545"
+                        id="Fill-10"
+                        points="111.240197 336.190683 161.700802 336.190683 161.700802 12.5604334 111.240197 12.5604334"
+                      />
+                      <polygon
+                        fill="#dc3545"
+                        id="Fill-14"
+                        points="60.7795921 302.657248 111.240197 302.657248 111.240197 46.0938678 60.7795921 46.0938678"
+                      />
+                      <polygon
+                        fill="#dc3545"
+                        id="Fill-16"
+                        points="10.3121127 259.094674 60.7727174 259.094674 60.7727174 89.656442 10.3121127 89.656442"
+                      />
+                      <polygon
+                        fill="#010202"
+                        id="Fill-12"
+                        opacity="0.3"
+                        points="111.240197 336.190683 161.700802 336.190683 161.700802 302.657248 111.240197 302.657248"
+                      />
+                      <polygon
+                        fill="#010202"
+                        id="Fill-13"
+                        opacity="0.3"
+                        points="350.206221 336.190683 400.666826 336.190683 400.666826 302.657248 350.206221 302.657248"
+                      />
+                      <polygon
+                        fill="#010202"
+                        id="Fill-18"
+                        opacity="0.3"
+                        points="60.7795921 302.664113 111.240197 302.664113 111.240197 269.130678 60.7795921 269.130678"
+                      />
+                      <polygon
+                        fill="#010202"
+                        id="Fill-19"
+                        opacity="0.3"
+                        points="402.54363 302.664113 453.004235 302.664113 453.004235 269.130678 402.54363 269.130678"
+                      />
+                      <polygon
+                        fill="#010202"
+                        id="Fill-20"
+                        opacity="0.3"
+                        points="10.3121127 259.101538 60.7727174 259.101538 60.7727174 225.568104 10.3121127 225.568104"
+                      />
+                      <polygon
+                        fill="#010202"
+                        id="Fill-21"
+                        opacity="0.3"
+                        points="453.01111 259.101538 503.471715 259.101538 503.471715 225.568104 453.01111 225.568104"
+                      />
+                      <path
+                        d="M360.518334,325.893824 L390.354713,325.893824 L390.354713,22.8572914 L360.518334,22.8572914 L360.518334,325.893824 Z M400.666826,346.487541 L350.206221,346.487541 C344.513935,346.487541 339.894109,341.874548 339.894109,336.190683 L339.894109,12.5604334 C339.894109,6.87656771 344.513935,2.2635753 350.206221,2.2635753 L400.666826,2.2635753 C406.359112,2.2635753 410.978939,6.87656771 410.978939,12.5604334 L410.978939,336.190683 C410.978939,341.874548 406.359112,346.487541 400.666826,346.487541 L400.666826,346.487541 Z"
+                        fill="#2E2E30"
+                        id="Fill-5"
+                      />
+                      <path
+                        d="M410.978939,292.36039 L440.822193,292.36039 L440.822193,56.3907259 L410.978939,56.3907259 L410.978939,292.36039 Z M451.134305,312.954106 L400.666826,312.954106 C394.97454,312.954106 390.354713,308.341114 390.354713,302.657248 L390.354713,46.0938678 C390.354713,40.4100022 394.97454,35.7970098 400.666826,35.7970098 L451.134305,35.7970098 C456.826592,35.7970098 461.446418,40.4100022 461.446418,46.0938678 L461.446418,302.657248 C461.446418,308.341114 456.826592,312.954106 451.134305,312.954106 L451.134305,312.954106 Z"
+                        fill="#2E2E30"
+                        id="Fill-7"
+                      />
+                      <path
+                        d="M461.446418,248.80468 L491.282797,248.80468 L491.282797,99.9533001 L461.446418,99.9533001 L461.446418,248.80468 Z M501.59491,269.398397 L451.134305,269.398397 C445.442019,269.398397 440.822193,264.785404 440.822193,259.101538 L440.822193,89.656442 C440.822193,83.9725764 445.442019,79.359584 451.134305,79.359584 L501.59491,79.359584 C507.287196,79.359584 511.907023,83.9725764 511.907023,89.656442 L511.907023,259.101538 C511.907023,264.785404 507.287196,269.398397 501.59491,269.398397 L501.59491,269.398397 Z"
+                        fill="#2E2E30"
+                        id="Fill-9"
+                      />
+                      <path
+                        d="M121.552309,325.893824 L151.395564,325.893824 L151.395564,22.8572914 L121.552309,22.8572914 L121.552309,325.893824 Z M161.700802,346.487541 L111.240197,346.487541 C105.547911,346.487541 100.928084,341.874548 100.928084,336.190683 L100.928084,12.5604334 C100.928084,6.87656771 105.547911,2.2635753 111.240197,2.2635753 L161.700802,2.2635753 C167.399962,2.2635753 172.012914,6.87656771 172.012914,12.5604334 L172.012914,336.190683 C172.012914,341.874548 167.399962,346.487541 161.700802,346.487541 L161.700802,346.487541 Z"
+                        fill="#2E2E30"
+                        id="Fill-11"
+                      />
+                      <path
+                        d="M71.08483,292.36039 L100.928084,292.36039 L100.928084,56.3907259 L71.08483,56.3907259 L71.08483,292.36039 Z M111.240197,312.954106 L60.7727174,312.954106 C55.0804312,312.954106 50.4606047,308.341114 50.4606047,302.657248 L50.4606047,46.0938678 C50.4606047,40.4100022 55.0804312,35.7970098 60.7727174,35.7970098 L111.240197,35.7970098 C116.932483,35.7970098 121.552309,40.4100022 121.552309,46.0938678 L121.552309,302.657248 C121.552309,308.341114 116.932483,312.954106 111.240197,312.954106 L111.240197,312.954106 Z"
+                        fill="#2E2E30"
+                        id="Fill-15"
+                      />
+                      <path
+                        d="M20.6242254,248.80468 L50.4606047,248.80468 L50.4606047,99.9533001 L20.6242254,99.9533001 L20.6242254,248.80468 Z M60.7727174,269.398397 L10.3121127,269.398397 C4.61982648,269.398397 0,264.785404 0,259.101538 L0,89.656442 C0,83.9725764 4.61982648,79.359584 10.3121127,79.359584 L60.7727174,79.359584 C66.4650036,79.359584 71.08483,83.9725764 71.08483,89.656442 L71.08483,259.101538 C71.08483,264.785404 66.4650036,269.398397 60.7727174,269.398397 L60.7727174,269.398397 Z"
+                        fill="#2E2E30"
+                        id="Fill-17"
+                      />
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            Vox Gym
+          </span>
+                </a>
+                            <div class="copyrights my-2 text-light">
+    created by <span class="footer-n my-2 text-danger ">Omar sabry</span>
+<div class="my-2 text-danger ">&copy;<span class="js"></span> <span  class="footer-n">Omar sabry</span></div>
+</div>
+              </div>
+              
+            </div>
+               <div class="col-md-2 col-lg-2">
+                <div class="links text-light">
+                    <h5>About us</h5>
+                    <ul class="list-unstyled lh-lg">
+                        <li>About Vox Gym</li>
+                        <li>Careers</li>
+                        <li>Business Partners</li>
+                       
+                        
+                    </ul>
+                </div>
+            </div>
+<div class="col-md-6  ">
+              <div class="contact text-center text-light">
+                <h5>Contact Us</h5>
+                <p class="lh-lg mt-3 mb-5">Get in touch with us via Email Mail and Phone. we are waiting for your call or message </p>
+                <a class="btn btn-danger w-100" href="#">morasabri422@gmail.com</a>
+                <ul class="d-flex gap-3 mt-5 list-unstyled ">
+                    <li>
+                        <a class="d-block text-danger  fs-1 " href="#">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="4rem" height="4rem" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                          </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-block text-danger fs-1 " href="#">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="4rem" height="4rem" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                          </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-block text-danger fs-1 " href="#">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="4rem" height="4rem" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                          </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-block text-danger fs-1 " href="#">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="4rem" height="4rem" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                          </svg>
+                        </a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+
+
+          </div>
+          
+          
+        </div>
+       
+        
+      </section>
+    <script src="bootstrap.min.js"></script>
+    <script>
+      const d = document.querySelector(".js")
+    d.textContent = new Date().getFullYear()
+    </script>
+  </body>
+</html>
